@@ -51,7 +51,7 @@ jobs:
       - name: Checkout Prod Target
         uses: actions/checkout@v4
         with:
-          repository: {{env.REPOSITORY}}
+          repository: ${{ env.REPOSITORY }}
           path: 'deploy'
           
       
