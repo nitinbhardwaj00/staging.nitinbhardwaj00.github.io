@@ -9,7 +9,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
-  URL: nitinbhardwaj00.github.io/staging.nitinbhardwaj00.github.io/
+  URL: https://${{ env.URL }}
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
