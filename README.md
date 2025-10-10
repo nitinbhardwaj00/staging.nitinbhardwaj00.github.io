@@ -1,2 +1,2 @@
 # staging.nitinbhardwaj00.github.io
-staging for github.io website!
+Stage for github.io website!
