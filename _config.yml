@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "dirt" # Currently available options are "default", "air"
 title                    : "Nitin Bhardwaj"
 title_separator          : "-"
 name                     : &name "Your Name"
