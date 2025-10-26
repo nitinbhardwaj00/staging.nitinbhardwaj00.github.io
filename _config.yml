@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Nitin Bhardwaj"
 title_separator          : "-"
 name                     : &name "Nitin Bhardwaj"
@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Nitin"
+  name             : "Nitin Bhardwaj"
   pronouns         : # example: "she/her"  
   bio              : "Bridging Finance, Data, and AI to drive smarter business decisions."
   location         : "Germany"
