@@ -1,17 +1,31 @@
 ---
 permalink: /
-title: "Nitin's personal page"
+title: "Hi, I'm Nitin."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!
+I work where **finance, data and AI** meet — turning messy numbers into decisions people trust.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I've spent about ten years in Germany across FP&A, analytics leadership and investment management. I built the analytics function at **Shore** (Munich) from scratch, through a fundraise and an M&A exit to group.one. I've led EPM platform evaluations and implemented **Pigment** hands-on, and I started out on the investment side at **FinLeap**. Before that: an engineering degree, an MBA in Spain, and a Bosch internship that brought me to Germany.
 
-
-For more info
+What I care about
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Metrics people can trust.** Most "data problems" are really definition problems — the same label hiding different formulas across tools and teams.
+- **Finance that runs on systems, not heroics.** Planning tools, semantic layers and reconciliations that hold up in due diligence.
+- **AI that's useful in finance.** Practical, governed, and honest about where it breaks.
+- **PE and buy-and-build.** Making a group of acquired companies comparable, so the investment thesis can actually be measured.
+
+Recent writing
+------
+{% for post in site.posts limit:3 %}
+- [{{ post.title }}]({{ post.url | relative_url }}) <small>· {{ post.date | date: "%b %Y" }}</small>
+{% endfor %}
+
+[See all posts →]({{ '/blog/' | relative_url }})
+
+Get in touch
+------
+I'm open to conversations about senior finance, analytics and data leadership roles, as well as interim and fractional FP&A projects — especially with PE-backed and scaling SaaS companies. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/).

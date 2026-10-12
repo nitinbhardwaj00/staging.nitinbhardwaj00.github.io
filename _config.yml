@@ -12,11 +12,11 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Nitin Bhardwaj"
 title_separator          : "-"
 name                     : &name "Nitin Bhardwaj"
-description              : &description "Nitin's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Nitin Bhardwaj writes about AI, finance and data — FP&A, SaaS metrics, semantic layers and PE roll-ups."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://nitinbhardwaj00.github.io/staging.nitinbhardwaj00.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "nitinbhardwaj00/staging.nitinbhardwaj00.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -27,7 +27,7 @@ author:
   name             : "Nitin Bhardwaj"
   pronouns         : # example: "she/her"  
   bio              : "Bridging Finance, Data, and AI to drive smarter business decisions."
-  location         : "Germany"
+  location         : "Berlin, Germany"
   #employer         : "Red Brick University"
   uri              : # URL
   email            : "mail@example.org" 
